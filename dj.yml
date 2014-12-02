@@ -1,0 +1,9 @@
+- hosts: "{{ h }}"
+  roles:
+  - forge_hostname
+  - role: django_saml_app
+    django_saml_app_idp: https://idp.forgeservicelab.fi
+    tags: django
+
+
+
