@@ -1,2 +1,5 @@
 - src: git+ssh://gitlab@git.forgeservicelab.fi:10022/ansible-roles/forge_hostname.git
+  path: roles/
+
 - src: git+ssh://gitlab@git.forgeservicelab.fi:10022/ansible-roles/django_saml_app.git
+  path: roles/
